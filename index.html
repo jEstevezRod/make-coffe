@@ -21,7 +21,7 @@
             <p class="font-google bigger"> Who will go today for <strong>coffee</strong> ? </p>
         </div>
         <a id="flip" class="mb-3"> <img  src="assets/img/coin.png"></a>
-        <div id="winner" class="mt-5 font-google2 winner"></div>
+        
 
     </div>
     <script>
@@ -31,7 +31,7 @@
             let array1 = ['Jesus 1', 'Kamal', 'Jesus 2'];
             let array2 = ['Jesus1', 'Kamal', 'Jesus2', 'Miriam', 'Sabina'];
             let ran = Math.floor(Math.random() * array1.length);
-            $("#winner").text("The winner is " + array1[ran])
+            alert("The winner is " + array1[ran])
         });
 
     </script>
