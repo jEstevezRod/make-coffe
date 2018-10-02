@@ -1,0 +1,40 @@
+.font-google {
+    font-family: 'Amatic SC';
+    font-size: 100px !important;
+}
+
+.font-google2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px !important;
+    color: rgb(8, 15, 34);
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(10, 165, 165);
+};
+
+.fontt {
+    font-family: 'Amatic SC';
+};
+
+.small {
+    width: 34px;
+    height: 34px;
+}
+.logo {
+    position: relative;
+    text-indent: -9999px;
+    width: 80px;
+    height: 60px;
+    background: url(/assets/img/icon.svg);
+    background-size: 80px 60px;
+    animation: mymove 1.5s infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: -30px;}
+}
